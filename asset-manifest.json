@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Beatsup/static/css/main.478445ff.chunk.css",
+    "main.css": "/Beatsup/static/css/main.29b451d7.chunk.css",
     "main.js": "/Beatsup/static/js/main.da6659db.chunk.js",
     "main.js.map": "/Beatsup/static/js/main.da6659db.chunk.js.map",
     "runtime-main.js": "/Beatsup/static/js/runtime-main.98f84d71.js",
@@ -8,13 +8,13 @@
     "static/js/2.34816401.chunk.js": "/Beatsup/static/js/2.34816401.chunk.js",
     "static/js/2.34816401.chunk.js.map": "/Beatsup/static/js/2.34816401.chunk.js.map",
     "index.html": "/Beatsup/index.html",
-    "static/css/main.478445ff.chunk.css.map": "/Beatsup/static/css/main.478445ff.chunk.css.map",
+    "static/css/main.29b451d7.chunk.css.map": "/Beatsup/static/css/main.29b451d7.chunk.css.map",
     "static/js/2.34816401.chunk.js.LICENSE.txt": "/Beatsup/static/js/2.34816401.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.98f84d71.js",
     "static/js/2.34816401.chunk.js",
-    "static/css/main.478445ff.chunk.css",
+    "static/css/main.29b451d7.chunk.css",
     "static/js/main.da6659db.chunk.js"
   ]
 }
