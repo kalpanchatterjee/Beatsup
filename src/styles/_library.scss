@@ -1,0 +1,100 @@
+.library {
+  position: fixed;
+  height: 100%;
+  width: 20rem;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
+  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  cursor: pointer;
+  h1 {
+    padding: 2rem;
+  }
+}
+
+.library-song {
+  display: flex;
+  padding: 1rem 2rem 1rem 2rem;
+  img {
+    width: 30%;
+  }
+  &:hover {
+    background-color: rgb(222, 222, 255);
+  }
+  h2,
+  h3 {
+    font-weight: 400;
+    padding: 0rem 0rem 0rem 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.7rem;
+  }
+}
+.song-desc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 5px;
+}
+.selected {
+  background-color: rgb(165, 167, 236);
+}
+
+.active-library {
+  transform: translateX(0%);
+  opacity: 1;
+}
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.7);
+  border-radius: 20px;
+  border: transparent;
+}
+@media screen and (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .song-container {
+    img {
+      width: 60%;
+    }
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotateSong {
+  animation: rotate 20s linear forwards infinite;
+}
